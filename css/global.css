@@ -1,0 +1,32 @@
+:root {
+  --cor-0: #fff;
+  --cor-1: #5ba300;
+  --cor-12: #131313;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+a,
+p {
+  color: var(--cor-0);
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--cor-12);
+}

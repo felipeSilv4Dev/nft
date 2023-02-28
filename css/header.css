@@ -1,0 +1,43 @@
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4.1rem 3.2rem;
+}
+.meio-as {
+  display: flex;
+  align-items: center;
+  gap: 4.3rem;
+}
+
+.menu-meio {
+  display: flex;
+  align-items: center;
+  gap: 6.2rem;
+}
+.menu-titulo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.meio-as a,
+.menu-button a {
+  font-size: 1.1rem;
+}
+
+.menu-button {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+  margin-right: 2.3rem;
+}
+.menu-button a {
+  color: var(--cor-1);
+  padding: 1.1rem 1.6rem;
+  border: 1px solid var(--cor-1);
+  border-radius: 24px;
+}
+.menu-button img:nth-child(3) {
+  padding: 0.6rem 0.6rem 0.7rem 0.7rem;
+  background-color: var(--cor-1);
+  border-radius: 50%;
+}
