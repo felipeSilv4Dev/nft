@@ -1,0 +1,119 @@
+.home {
+  display: grid;
+  grid-template-columns: 1.3fr 1.5fr 1fr;
+  margin: 9rem 4rem;
+}
+
+.home-titulo h1 {
+  line-height: 143.99%;
+  font-size: 3rem;
+  left: 0;
+}
+.home-p {
+  margin: 2.6rem 0rem;
+  font-size: 1.38rem;
+  line-height: 1.4;
+}
+.home-elipse {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 4rem;
+}
+.home-elipse h3 {
+  font-size: 1.38rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.home-elipse p {
+  font-size: 1.125rem;
+  color: var(--cor-1);
+}
+.home-h2 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.home-h2 h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  position: relative;
+}
+.home-h2 h2::before {
+  content: "";
+  position: absolute;
+  width: 63px;
+  height: 2px;
+  top: 3rem;
+  background: var(--cor-2);
+}
+
+/* image-monkey */
+
+.home-monkey-container {
+  position: relative;
+  border: 1px solid var(--cor-2);
+  right: -8rem;
+}
+.home-monkey {
+  background-color: var(--cor-3);
+  z-index: 2;
+  position: relative;
+  top: -2.4rem;
+  left: -2.1rem;
+  padding: 0rem 1.2rem;
+  border: 1px solid var(--cor-2);
+}
+.home-monkey-top,
+.home-monkey-bot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-monkey-top {
+  padding: 1.94rem 0rem 0.88rem 0rem;
+}
+.home-monkey-top h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.home-monkey-top p {
+  font-size: 1.125rem;
+  color: var(--cor-1);
+}
+.home-monkey-bot {
+  padding: 1.8rem 0rem;
+}
+.home-detalhe h2 {
+  font-size: 1.38rem;
+}
+.home-detalhe p {
+  margin: 0.9rem 0rem 1rem;
+  font-size: 1.125rem;
+  color: var(--cor-1);
+}
+
+.home-info-extra {
+  width: 7rem;
+  height: 19rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.3rem;
+  position: relative;
+  right: -11.3rem;
+  top: 20rem;
+}
+.home-info-detalhe h2 {
+  flex: 1;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+.home-info-detalhe p {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--cor-1);
+  line-height: 148.99%;
+  letter-spacing: 0.05rem;
+}
