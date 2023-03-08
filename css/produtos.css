@@ -1,0 +1,95 @@
+.produtos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0rem 2.5rem 2.4rem;
+}
+
+.div-flex {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2.3rem;
+}
+.produtos .div-flex h2 {
+  font-size: 1.5rem;
+}
+.produtos p {
+  font-size: 1.3rem;
+  margin-bottom: 0.3rem;
+}
+.produtos h2 {
+  font-size: 2.2rem;
+}
+
+.produtos-itens {
+  display: flex;
+  align-items: center;
+  gap: 2.3rem;
+  margin: 0rem 2.5rem 4rem;
+}
+
+.container-itens {
+  width: 370px;
+  height: 570px;
+  background-color: var(--cor-4);
+  border-radius: 6px;
+  flex: 1;
+}
+.container-itens-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.6rem 1.3rem 0.815rem 1.2rem;
+}
+.top-detalhe {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.top-detalhe img {
+  width: 39px;
+  height: 40px;
+}
+.container-itens-principal img {
+  padding: 0rem 1.2rem 0rem 1.3rem;
+}
+.container-itens-principal h2 {
+  padding: 1.5rem 0rem 0.5rem 1.3rem;
+  font-size: 1.4rem;
+}
+.container-itens-principal p {
+  padding-left: 1.3rem;
+  font-size: 0.812rem;
+  color: var(--cor-1);
+}
+.container-itens-bot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  padding: 0rem 1.2rem 0rem 1.3rem;
+}
+.bot-detalhe {
+  display: flex;
+  align-items: center;
+  gap: 0.812rem;
+}
+.bot-detalhe img {
+  max-width: 1.5rem;
+}
+.bot-detalhe div p {
+  font-size: 0.7rem;
+  color: var(--cor-1);
+  margin-bottom: 0.5rem;
+}
+.bot-detalhe div h2 {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+.container-itens-bot div a {
+  font-size: 1.125rem;
+  padding: 0.9rem 2.7rem;
+  text-align: center;
+  background-color: var(--cor-2);
+  border-radius: 1px;
+}
