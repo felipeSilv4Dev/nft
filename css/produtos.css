@@ -1,4 +1,5 @@
-.produtos {
+.produtos,
+.produtos-2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -10,15 +11,19 @@
   gap: 1rem;
   margin-top: 2.3rem;
 }
-.produtos .div-flex h2 {
+.produtos .div-flex h2,
+.produtos-2 .div-flex h2 {
   font-size: 1.5rem;
+  font-weight: 700;
 }
 .produtos p {
   font-size: 1.3rem;
   margin-bottom: 0.3rem;
 }
-.produtos h2 {
+.produtos h2,
+.produtos-2 h2 {
   font-size: 2.2rem;
+  font-weight: 700;
 }
 
 .produtos-itens {
@@ -92,4 +97,21 @@
   text-align: center;
   background-color: var(--cor-2);
   border-radius: 1px;
+}
+/* produtos-2 */
+
+.produtos-2 {
+  margin-top: 11rem;
+}
+.produtos-2 .div-flex {
+  margin-top: 0rem;
+}
+.bg {
+  z-index: -1;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 20.6rem;
+  background-color: var(--cor-5);
+  top: 114rem;
 }
