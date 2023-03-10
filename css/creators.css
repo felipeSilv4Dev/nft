@@ -1,0 +1,69 @@
+.creators {
+  padding: 2rem 0.7rem 0rem;
+}
+.creators h2 {
+  font-weight: bold;
+  font-size: 2.3rem;
+  text-align: center;
+  margin-top: 9rem;
+}
+
+.creators-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 5.2rem 0rem;
+}
+.creators-identidade {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  background-color: var(--cor-4);
+  border-radius: 30px;
+  gap: 1rem;
+}
+.img-identidade {
+  padding: 1rem 0rem 0.8rem 1rem;
+}
+.creators-top {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  place-content: start;
+  padding-top: 1.3rem;
+  gap: 5.2rem;
+}
+.creators-top h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.creators-top a {
+  padding: 0.55rem 1.43rem;
+  background-color: var(--cor-2);
+  font-size: 0.875rem;
+  border-radius: 17px;
+}
+.creators-bot {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+.creators-bot img {
+  max-width: 20px;
+}
+.creators-bot p {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--cor-2);
+}
+.creators-btn {
+  display: flex;
+  max-width: 173px;
+  margin: 0 auto;
+  place-content: center;
+  font-size: 1.2rem;
+  padding: 1.18rem 1.68rem;
+  color: var(--cor-2);
+  border: 1px solid currentColor;
+  border-radius: 24px;
+}
