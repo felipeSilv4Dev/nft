@@ -98,6 +98,7 @@
   background-color: var(--cor-2);
   border-radius: 1px;
 }
+
 /* produtos-2 */
 
 .produtos-2 {
@@ -114,4 +115,118 @@
   height: 20.6rem;
   background-color: var(--cor-5);
   top: 114rem;
+}
+
+@media (max-width: 1024px) {
+  .produtos,
+  .produtos-2 {
+    margin: 0rem 2rem 1rem;
+  }
+  .produtos-2 {
+    margin-top: 5rem;
+  }
+  .produtos-itens {
+    margin: 0rem 1rem;
+  }
+  .container-itens-bot div a {
+    padding: 0.45rem 0.9rem;
+  }
+  .bot-detalhe img {
+    max-width: 1.2rem;
+  }
+  .container-itens {
+    height: 510px;
+  }
+  .bg {
+    top: 110rem;
+  }
+}
+
+@media (max-width: 912px) {
+  .produtos,
+  .produtos-2 {
+    margin: 0rem 2rem 2rem;
+  }
+  .produtos-2 {
+    margin-top: 8rem;
+  }
+  .produtos-itens {
+    flex-direction: column;
+  }
+  .container-itens {
+    width: 100%;
+  }
+  .top-detalhe img {
+    max-width: 2rem;
+    max-height: 2rem;
+  }
+  .top-detalhe h3 {
+    font-size: 2rem;
+  }
+  .container-itens img {
+    width: 100%;
+  }
+  .container-itens h2 {
+    font-size: 3rem;
+  }
+  .container-itens p {
+    font-size: 2rem;
+  }
+  .bot-detalhe {
+    display: block;
+  }
+  .container-itens-top {
+    margin-bottom: 1rem;
+  }
+  .container-itens-bot {
+    margin-top: 2rem;
+  }
+  .container-itens-bot div a {
+    font-size: 2.5rem;
+    padding: 1rem 2rem;
+  }
+  .bot-detalhe img {
+    display: none;
+  }
+  .bot-detalhe h3 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  .bot-detalhe div p {
+    font-size: 2rem;
+  }
+  .bg {
+    top: 355rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .produtos,
+  .produtos-2 {
+    margin: 0rem 1rem 2rem;
+  }
+  .produtos-2 {
+    margin-top: 5rem;
+  }
+  .produtos h2,
+  .produtos-2 h2,
+  .bot-detalhe h3,
+  .top-detalhe h3 {
+    font-size: 1.7rem;
+  }
+  .produtos p,
+  .container-itens p,
+  .bot-detalhe div p {
+    font-size: 1.2rem;
+  }
+  .container-itens h2 {
+    font-size: 2rem;
+  }
+  .container-itens-bot div a {
+    font-size: 1.5rem;
+    padding: 0.9rem 2rem;
+  }
+  .bg {
+    display: none;
+  }
 }
