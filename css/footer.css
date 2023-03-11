@@ -158,3 +158,34 @@
     gap: 1rem;
   }
 }
+
+@media (max-width: 280px) {
+  .footer-titulo a {
+    font-size: 2rem;
+  }
+  .footer-marketplace h2 {
+    font-size: 1.5rem;
+  }
+  .footer-marketplace p {
+    font-size: 1rem;
+  }
+  .footer-newsletter h2 {
+    font-size: 1.5rem;
+  }
+  .footer-newsletter p {
+    font-size: 1rem;
+  }
+  .footer-newsletter input::placeholder,
+  .footer-newsletter a {
+    font-size: 1rem;
+  }
+  .rodape div p {
+    font-size: 0.5rem;
+  }
+  .rodape-redes {
+    gap: 1rem;
+  }
+  .rodape-redes img {
+    height: 0.9rem;
+  }
+}

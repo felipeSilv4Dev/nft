@@ -171,7 +171,7 @@
     grid-template-columns: 1fr;
   }
   .creators-top {
-    gap: 2.6rem;
+    gap: 5rem;
   }
   .comunidade-img {
     display: none;
@@ -191,5 +191,65 @@
   }
   .comunidade-btn {
     margin-top: 2rem;
+  }
+}
+@media (max-width: 393px) {
+  .creators-top {
+    gap: 3.8rem;
+  }
+}
+@media (max-width: 375px) {
+  .creators-top {
+    gap: 3rem;
+  }
+}
+@media (max-width: 360px) {
+  .creators-top {
+    gap: 2.9rem;
+  }
+  .creators-top a {
+    padding: 0.5rem 0.8rem;
+  }
+}
+@media (max-width: 280px) {
+  .creators h2 {
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+  }
+  .creators-identidade {
+    gap: 0.5rem;
+  }
+  .creators-identidade img {
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+  }
+  .creators-top {
+    gap: 1.5rem;
+    padding-top: 0.8rem;
+  }
+  .creators-top h3 {
+    font-size: 1.1rem;
+  }
+  .creators-top a {
+    font-size: 0.85rem;
+    margin-right: 0.6rem;
+    padding: 0.5rem 0.4rem;
+  }
+  .creators-bot p {
+    font-size: 0.8rem;
+  }
+  .creators-btn {
+    font-size: 1rem;
+  }
+  .comunidade {
+    margin: 3.5rem 1rem;
+  }
+  .comunidade-titulo p {
+    font-size: 1.2rem;
+  }
+  .comunidade-titulo h2 {
+    font-size: 1.5rem;
+  }
+  .comunidade-info-p p {
+    font-size: 0.9rem;
   }
 }
