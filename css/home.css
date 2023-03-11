@@ -197,10 +197,10 @@
   .home-monkey-top h2,
   .home-h2 h2,
   .home-p {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   .home-monkey-top p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .home-info-extra {
@@ -210,7 +210,7 @@
   }
   .home-info-extra h2,
   .home-info-extra p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .home-monkey-bot {
     display: none;
