@@ -42,6 +42,10 @@
   font-size: 0.875rem;
   border-radius: 17px;
 }
+.creators-top a:hover {
+  transition: 0.3s;
+  background-color: var(--cor-7);
+}
 .creators-bot {
   display: flex;
   align-items: center;
@@ -64,8 +68,13 @@
   font-size: 1.2rem;
   padding: 1.18rem 1.68rem;
   color: var(--cor-2);
-  border: 1px solid currentColor;
+  border: 1px solid var(--cor-2);
   border-radius: 24px;
+}
+.creators-btn:hover {
+  transition: 0.3s;
+  color: var(--cor-0);
+  background: var(--cor-7);
 }
 /* creators comunidade */
 
@@ -118,6 +127,10 @@
   gap: 0.75rem;
   padding: 1rem 1.8rem;
   border-radius: 1px;
+}
+.comunidade-btn:hover {
+  transition: 0.3s;
+  background-color: var(--cor-7);
 }
 
 @media (max-width: 1024px) {
@@ -201,6 +214,9 @@
 @media (max-width: 375px) {
   .creators-top {
     gap: 3rem;
+  }
+  .creators h2 {
+    font-size: 2rem;
   }
 }
 @media (max-width: 360px) {

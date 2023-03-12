@@ -98,6 +98,10 @@
   background-color: var(--cor-2);
   border-radius: 1px;
 }
+.container-itens-bot div a:hover {
+  transition: 0.3s;
+  background-color: var(--cor-7);
+}
 
 /* produtos-2 */
 
@@ -228,6 +232,20 @@
   }
   .bg {
     display: none;
+  }
+}
+@media (max-width: 375px) {
+  .div-flex {
+    margin-top: 1.7rem;
+  }
+  .produtos p {
+    font-size: 0.9rem;
+  }
+  .produtos h2,
+  .produtos-2 h2,
+  .produtos .div-flex h2,
+  .produtos-2 .div-flex h2 {
+    font-size: 1.2rem;
   }
 }
 @media (max-width: 360px) {

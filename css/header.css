@@ -39,10 +39,19 @@
   border: 1px solid var(--cor-2);
   border-radius: 24px;
 }
+.menu-button a:hover {
+  transition: 0.3s;
+  color: var(--cor-0);
+  background-color: var(--cor-7);
+}
 .menu-button img:nth-child(3) {
   padding: 0.6rem 0.6rem 0.7rem 0.7rem;
   background-color: var(--cor-2);
   border-radius: 50%;
+}
+.menu-button img:nth-child(3):hover {
+  transition: 0.3s;
+  background-color: var(--cor-7);
 }
 @media (max-width: 1024px) {
   .container {
