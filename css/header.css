@@ -23,6 +23,11 @@
 .meio-as a {
   padding: 0.8rem;
 }
+.meio-as a:hover,
+.menu-titulo:hover {
+  transition: 0.3s;
+  color: var(--cor-1);
+}
 .meio-as a,
 .menu-button a {
   font-size: 1.1rem;

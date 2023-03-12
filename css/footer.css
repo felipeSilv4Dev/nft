@@ -14,6 +14,10 @@
   font-size: 2rem;
   font-weight: 900;
 }
+.footer-titulo a:hover {
+  transition: 0.3s;
+  color: var(--cor-1);
+}
 .footer-marketplace {
   margin-left: 1.19rem;
   padding-left: 3.19rem;
@@ -57,6 +61,11 @@
   flex: 2;
   background-color: var(--cor-3);
   color: var(--cor-0);
+  border: 1px solid var(--cor-3);
+}
+.footer-newsletter input:hover {
+  transition: 0.3s;
+  border: 1px solid var(--cor-2);
 }
 .footer-newsletter input::placeholder,
 .footer-newsletter a {
