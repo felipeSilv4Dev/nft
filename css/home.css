@@ -199,6 +199,9 @@
   .home-p {
     font-size: 1.3rem;
   }
+  .home-h2 h2::before {
+    top: 2.5rem;
+  }
   .home-monkey-top p {
     font-size: 1.1rem;
   }
@@ -225,12 +228,6 @@
   }
   .home-h2 h2 {
     font-size: 1.6rem;
-  }
-  .home-info-extra h2 {
-    font-size: 1.5rem;
-  }
-  .home-info-extra p {
-    font-size: 1.2rem;
   }
 }
 @media (max-width: 360px) {
