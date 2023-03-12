@@ -226,8 +226,17 @@
   .home-p {
     font-size: 1.2rem;
   }
+  .home-elipse {
+    margin-bottom: 1rem;
+  }
+  .home-elipse img {
+    max-width: 7rem;
+  }
+  .home-h2 h2::before {
+    top: 2rem;
+  }
   .home-h2 h2 {
-    font-size: 1.6rem;
+    font-size: 1.1rem;
   }
 }
 @media (max-width: 360px) {
