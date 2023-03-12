@@ -22,6 +22,8 @@
   gap: 1rem;
 }
 .img-identidade {
+  height: auto;
+  width: auto;
   padding: 1rem 0rem 0.8rem 1rem;
 }
 .creators-top {
@@ -53,6 +55,7 @@
   margin-top: 0.75rem;
 }
 .creators-bot img {
+  height: auto;
   max-width: 20px;
 }
 .creators-bot p {
@@ -85,6 +88,7 @@
   margin: 10.6rem 0rem 14.4rem;
 }
 .comunidade img {
+  height: auto;
   max-width: 4.3rem;
 }
 .comunidade-img {

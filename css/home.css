@@ -20,6 +20,9 @@
   gap: 0.8rem;
   margin-bottom: 4rem;
 }
+.home-elipse img {
+  height: auto;
+}
 .home-elipse h3 {
   font-size: 1.38rem;
   font-weight: 700;
@@ -63,6 +66,9 @@
   left: -2.1rem;
   padding: 0rem 1.2rem;
   border: 1px solid var(--cor-2);
+}
+.home-monkey img {
+  height: auto;
 }
 .home-monkey-top,
 .home-monkey-bot {

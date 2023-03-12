@@ -98,6 +98,10 @@
   align-items: center;
   gap: 2.225rem;
 }
+.rodape-redes img {
+  max-width: 24px;
+  width: auto;
+}
 @media (max-width: 1024px) {
   .footer-container {
     padding: 4.56rem 1rem;
